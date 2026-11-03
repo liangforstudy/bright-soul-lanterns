@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "io.github.liangforstudy.brightsoullanterns.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"BlockBehaviourAccessor",
+		"BlockStateBaseMixin",
+		"PropertiesAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

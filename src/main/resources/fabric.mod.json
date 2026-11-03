@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "brightsoullanterns",
+	"version": "${version}",
+	"name": "Bright Soul Lanterns",
+	"description": "Soul lanterns emit the same light level as regular lanterns (15). Soul lanterns placed before installing are relit automatically when their chunk loads.",
+	"authors": [
+		"liangforstudy"
+	],
+	"contact": {
+		"homepage": "https://github.com/liangforstudy/bright-soul-lanterns",
+		"sources": "https://github.com/liangforstudy/bright-soul-lanterns",
+		"issues": "https://github.com/liangforstudy/bright-soul-lanterns/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/brightsoullanterns/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.liangforstudy.brightsoullanterns.BrightSoulLanterns"
+		]
+	},
+	"mixins": [
+		"brightsoullanterns.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
