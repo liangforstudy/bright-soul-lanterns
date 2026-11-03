@@ -12,8 +12,9 @@ A Fabric mod for Minecraft: Java Edition 26.3 that makes soul lanterns emit ligh
 ## Installation
 
 1. Install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 26.3.
-2. Download [Fabric API](https://modrinth.com/mod/fabric-api) for 26.3.
-3. Put both jars in your `mods` folder.
+2. Download `bright-soul-lanterns-<version>.jar` from the [latest release](https://github.com/liangforstudy/bright-soul-lanterns/releases/latest). Under **Assets**, pick the plain `.jar`, not the source code zip.
+3. Download [Fabric API](https://modrinth.com/mod/fabric-api) for 26.3.
+4. Put both jars in your `.minecraft/mods` folder (create it if it doesn't exist), then launch the game with the Fabric profile.
 
 Install it on **both the server and every client**. In single-player, your own game is enough.
 
